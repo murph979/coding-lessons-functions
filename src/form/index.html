@@ -31,8 +31,23 @@
         *********/
 
           
-            
-          
+    var outputResponse = function(name, choice){
+
+     
+
+      if(choice=="cats"){
+
+        return "Nice! I like cats too!";
+        }
+        else {
+          return "Dogs actually suck, and are bad."
+        }  
+
+      if(name=="Eric"){
+          return "cool name btw"
+        }   
+    }
+
 
 
 
@@ -69,7 +84,7 @@
             <input type="radio" class="theirChoice radio" name="pet" value="cats"> Cats<br>
         </div>
         
-        <button type="button" class="btn btn-info" id="submit">Submit You Answer</button>
+        <button type="button" class="btn btn-info" id="submit">Submit Your Answer</button>
       
 		<div id="response">
 
